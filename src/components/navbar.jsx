@@ -70,7 +70,7 @@ const Navbar = () => {
       {/* LINKS */}
       <div className="hidden md:flex gap-4 xl:w-1/3">
         {links.map((link) => (
-          <NavLink link={link} />
+          <NavLink link={link} key={link.title} />
         ))}
       </div>
       {/* LOGO */}

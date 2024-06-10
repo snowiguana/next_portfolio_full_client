@@ -48,7 +48,7 @@ const PortfolioPage = () => {
   const x = useTransform(scrollYProgress, [0, 1], ["0%", "-80%"]);
   return (
     <motion.div
-      className="h-dvh"
+      className="h-full"
       initial={{ y: "-200vh" }}
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
